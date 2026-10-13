@@ -1,0 +1,28 @@
+{
+    "full_name": "Sreejana Dutta",
+    "name": "Sreejana",
+    "current_role": "Assistant Vice President, Quantitative Analytics at HSBC UK",
+    "location": "Edinburgh, United Kingdom",
+    "email": "ziniyadutta2008@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sreejana-dutta-765425211",
+    "specialties": [
+      "Credit Risk Modelling, IFRS 9 and LGD",
+      "AI and Model Risk Governance",
+      "Climate Risk, Economic Capital and Model Validation",
+      "Python, Generative AI and Cloud Analytics",
+      "Regulatory Remediation and Risk Controls"
+    ],
+    "years_experience": 8,
+    "education": [
+      {
+        "degree": "Master of Engineering (MEng), Computer Software Engineering",
+        "institution": "Jadavpur University, Kolkata",
+        "year": "2018"
+      },
+      {
+        "degree": "Bachelor of Technology (BTech), Electronics and Communications Engineering",
+        "institution": "Heritage Institute of Technology",
+        "year": "2015"
+      }
+    ]
+  }
