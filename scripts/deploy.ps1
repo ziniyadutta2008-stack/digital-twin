@@ -30,7 +30,7 @@ if (-not (terraform workspace list | Select-String $Environment)) {
     terraform workspace select $Environment
 }
 
-if ($Environment -eq "prod") {
+if ($Environment -eq "prod" -and (Test-Path "prod.tfvars")) {
     terraform apply -var-file="prod.tfvars" -var="project_name=$ProjectName" -var="environment=$Environment" -auto-approve
 } else {
     terraform apply -var="project_name=$ProjectName" -var="environment=$Environment" -auto-approve
